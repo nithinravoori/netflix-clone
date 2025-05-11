@@ -1,0 +1,321 @@
+*{
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+#logo{
+    width: 148px;
+    height: 40px;
+    margin-left: 71px;
+    margin-top: 2px;
+}
+
+nav button{
+    height: 30px;
+    width: 90px;
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 4px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#button11{
+    display: inline-flex;
+    align-items: center;
+    background: #0f0f0f;
+    border: 0.2px dotted white;
+    margin-right: 3px;
+    width: 110px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#button12{
+    margin-right: 90px;
+    width: 80px;
+    padding: 7px;
+    background-color: #db0001;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+#downimg{
+    width: 10px;
+    margin-left: 3px;
+}
+
+.header-content{
+    margin-top: 137px;
+    top: 50%;
+    left: 4%;
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -15px;
+}
+
+.header-content h4{
+    font-size: 17px;
+    margin-bottom: 30px;
+    font-weight: 70 ;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#email_signup{
+    background-color: black;
+    color: #b7b7b7;
+    border-radius: 4px;
+    border: none;
+    height: 50px;
+    width: 275px;
+    padding-left: 20px;
+    padding-top: 3px;
+    border: 0.1px dotted white;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-right: 2px;
+}
+
+#button2{
+    background-color:#e50914;
+    border: none;
+    height: 55px;
+    width: 180px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 2px;
+
+}
+
+#heading1{
+    margin-bottom: -200px;
+    margin-top: 250px;
+    margin-left: 75px;
+    position: sticky;
+}
+.movie-container{
+    display: flex;
+    overflow: scroll;
+    padding: 25px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.movie-card{
+    margin: 10px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-image-width: 5px;
+    border-radius: 15px;
+}
+
+
+.movie-card img{
+    border-radius: 15px;
+    height: 190px;
+    width: 140px;
+}
+
+.movie-card:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#heading2{
+    margin-left: 75px;
+}
+    
+.accordion li label{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    background-color: #303030;
+    padding: 20px;
+    position: relative;
+    height: 50px;
+}
+
+.accordion li{
+    list-style: none;
+    padding: 5px;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+}
+
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    background-color: black;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.end-card{
+    color: white ;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    color: white;
+    margin-left: 90px;
+    margin-right: 140px;
+}
+
+.links2{
+    margin-right: 140px;
+    color: white;
+}
+
+
+#final{
+    display: flex;
+    color: white;
+    margin-left: -20px;
+}
+
+#div1{
+    height: 250px;
+    width: 400px;
+    background-color: #1a2042;
+    border: 1px solid black;
+    margin-left: 90px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+}
+#div2{
+    height: 250px;
+    width: 400px;
+    background-color: #1a2042;
+    border: 1px solid black;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#div1 p{
+    color: #b7b7b7;
+    font-weight: 500;
+}
+
+#div2 p{
+    color: #b7b7b7;
+    font-weight: 500;
+}
+
+#heading3{
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#imgg4,#imgg3,#imgg1,#imgg2{
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+#footclass{
+    background-color: #141414;
+    border-radius: 20px;
+    height: 250px;
+    width: 750px;
+    margin-left: 90px;
+    padding: 30px;
+    padding-left: 60px;
+    color: #E50914;
+    
+    border: 2px solid #B3B3B3	;
+}
+
+#pfp{
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+    margin-left: 550px;
+    margin-top: -15px;
+}
+
+#endcontent{
+    font-family: 'Segoe UI';
+    margin-top: -55px;
+    font-weight: 600;
+    color: #B3B3B3;
+}
+#endcontent2{
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: #B3B3B3;
+}
+#button13{
+    background-color: #E50914	;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    border: none;
+    width: 10px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 300px;
+    text-decoration: none;
+}
+
